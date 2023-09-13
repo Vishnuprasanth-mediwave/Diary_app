@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diary app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-div">
+    <form  id="add-form">
+        <label for="date">Choose Date</label>
+        <input type="date" name="date" id="date">
+        <label for="add-notes">My Notes</label>
+        <textarea type="text" name="add-notes" id="add-notes" cols="30" rows="4"></textarea>
+        <input type="submit" name="add-event" id="add-event" value="add-event">
+    </form>
+    </div>
+
+    <div class="list" id="my-diary"></div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
